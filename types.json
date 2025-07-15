@@ -1,0 +1,72 @@
+[
+  {
+    "id": "poundcake",
+    "name": "行程派磅蛋糕",
+    "description": "規劃力強、重視效率，喜歡掌控旅程每一步。",
+    "recommended_partners": ["poundcake", "chiffon", "cream"],
+    "image": "images/poundcake.png"
+  },
+  {
+    "id": "scone",
+    "name": "鬆散系司康",
+    "description": "節奏隨興、喜歡自由流動、不愛被綁定。",
+    "recommended_partners": ["chiffon", "pudding", "lava"],
+    "image": "images/scone.png"
+  },
+  {
+    "id": "strawberry",
+    "name": "鏡頭先吃草莓千層",
+    "description": "儀式感滿滿、熱衷拍照與美感風格。",
+    "recommended_partners": ["tiramisu", "cupcake", "cream"],
+    "image": "images/strawberry.png"
+  },
+  {
+    "id": "pudding",
+    "name": "療癒感布丁心",
+    "description": "情緒細膩、喜歡穩定安靜的陪伴旅行。",
+    "recommended_partners": ["scone", "cream", "chiffon"],
+    "image": "images/pudding.png"
+  },
+  {
+    "id": "tiramisu",
+    "name": "浪漫系提拉米蘇",
+    "description": "喜歡旅行有氣氛、有情節、有故事感。",
+    "recommended_partners": ["strawberry", "pudding", "cream"],
+    "image": "images/tiramisu.png"
+  },
+  {
+    "id": "cupcake",
+    "name": "社交杯子蛋糕",
+    "description": "活潑、熱情、喜歡熱鬧場景與多人互動。",
+    "recommended_partners": ["strawberry", "lava", "chiffon"],
+    "image": "images/cupcake.png"
+  },
+  {
+    "id": "tart",
+    "name": "知性果堅塔",
+    "description": "文化控、重內容、愛探索在地深度。",
+    "recommended_partners": ["poundcake", "pudding", "chiffon"],
+    "image": "images/tart.png"
+  },
+  {
+    "id": "lava",
+    "name": "衝動派熔岩巧克",
+    "description": "衝動感強、說走就走、不怕變動。",
+    "recommended_partners": ["scone", "cupcake", "chiffon"],
+    "image": "images/lava.png"
+  },
+  {
+    "id": "cream",
+    "name": "柔軟奶油泡芙",
+    "description": "溫柔療癒、在意旅伴感受、喜歡有人陪。",
+    "recommended_partners": ["pudding", "strawberry", "tiramisu"],
+    "image": "images/cream.png"
+  },
+  {
+    "id": "chiffon",
+    "name": "溫和戚風體質",
+    "description": "百搭型旅伴、什麼都行、默默支援型。",
+    "recommended_partners": ["poundcake", "scone", "tart"],
+    "image": "images/chiffon.png"
+  }
+]

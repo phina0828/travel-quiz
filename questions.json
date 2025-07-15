@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "question": "出發前，你會怎麼安排行程？",
+    "options": [
+      { "text": "Excel＋地圖標註，全部排好", "types": ["poundcake"] },
+      { "text": "有大方向，當天再決定也可以", "types": ["scone", "chiffon"] },
+      { "text": "完全沒查，當地再說", "types": ["lava"] }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "旅途中，你最享受的是？",
+    "options": [
+      { "text": "走訪當地博物館、文化遺產", "types": ["tart"] },
+      { "text": "在一家有氛圍感的咖啡廳待一下午", "types": ["tiramisu", "strawberry"] },
+      { "text": "跟當地人或新朋友聊天喝酒", "types": ["cupcake"] }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "遇到行程外的突發狀況（例如：店家沒開），你會？",
+    "options": [
+      { "text": "馬上拿出備案，無縫接軌", "types": ["poundcake"] },
+      { "text": "隨遇而安，附近隨便逛逛說不定有驚喜", "types": ["scone", "chiffon"] },
+      { "text": "有點焦慮，希望旅伴能決定下一步", "types": ["pudding", "cream"] }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "選擇住宿時，你最看重？",
+    "options": [
+      { "text": "交通方便，離景點近，效率至上", "types": ["poundcake"] },
+      { "text": "住宿本身的設計感與美學", "types": ["strawberry", "tiramisu"] },
+      { "text": "舒適乾淨，能好好休息就好", "types": ["pudding", "cream"] }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "對於「說走就走」的旅行，你的態度是？",
+    "options": [
+      { "text": "完全無法，我需要提前規劃", "types": ["poundcake"] },
+      { "text": "聽起來超酷！馬上出發！", "types": ["lava"] },
+      { "text": "如果旅伴都安排好，我可以配合", "types": ["chiffon", "cream"] }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "旅行中，你花最多時間在？",
+    "options": [
+      { "text": "拍照、修圖，記錄每個美麗瞬間", "types": ["strawberry"] },
+      { "text": "參與各種刺激的戶外活動", "types": ["lava", "cupcake"] },
+      { "text": "慢慢品味一頓在地美食", "types": ["pudding", "tiramisu"] }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "你期待的旅行夜晚活動是？",
+    "options": [
+      { "text": "去最熱鬧的酒吧或派對", "types": ["cupcake"] },
+      { "text": "在安靜的地方散步、看夜景", "types": ["pudding", "tiramisu"] },
+      { "text": "回飯店早點休息，為明天養精蓄銳", "types": ["poundcake", "cream"] }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "在旅途中，你如何看待預算？",
+    "options": [
+      { "text": "精打細算，每一筆花費都記錄下來", "types": ["poundcake"] },
+      { "text": "感覺對了就花，不太在意預算", "types": ["lava", "strawberry"] },
+      { "text": "舒服最重要，預算可以彈性調整", "types": ["scone", "chiffon"] }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "和旅伴意見不合時，你會？",
+    "options": [
+      { "text": "提出我的方案，並說服對方", "types": ["poundcake", "tart"] },
+      { "text": "都可以，我配合對方的意見", "types": ["chiffon", "cream"] },
+      { "text": "先各自冷靜，找個舒服的地方再討論", "types": ["pudding", "scone"] }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "你覺得旅行的意義是什麼？",
+    "options": [
+      { "text": "探索未知，學習新知", "types": ["tart"] },
+      { "text": "創造與旅伴的浪漫回憶", "types": ["tiramisu"] },
+      { "text": "徹底放鬆，遠離日常", "types": ["pudding", "scone"] }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "在景點前看到大排長龍，你會？",
+    "options": [
+      { "text": "放棄，立刻找下一個替代景點", "types": ["scone", "lava"] },
+      { "text": "預約好的就排，沒預約就放棄", "types": ["poundcake"] },
+      { "text": "沒關係，排隊時剛好可以拍照聊天", "types": ["strawberry", "cupcake"] }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "你偏好哪種旅伴組合？",
+    "options": [
+      { "text": "一大群朋友，越熱鬧越好", "types": ["cupcake"] },
+      { "text": "和最親密的另一半或摯友", "types": ["tiramisu", "pudding"] },
+      { "text": "一個人旅行，完全自由", "types": ["scone", "tart"] }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "旅行時，你的行李箱通常是？",
+    "options": [
+      { "text": "精簡實用，只帶必需品", "types": ["poundcake", "scone"] },
+      { "text": "帶上各種風格的衣服和配件，以備拍照", "types": ["strawberry"] },
+      { "text": "帶很多讓人安心的小物，例如醫藥箱、泡麵", "types": ["cream", "pudding"] }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "哪種體驗對你更有吸引力？",
+    "options": [
+      { "text": "逛當地市集，感受在地生活", "types": ["scone", "cupcake"] },
+      { "text": "參加一堂在地手作課", "types": ["tart", "strawberry"] },
+      { "text": "在五星級飯店享受設施", "types": ["tiramisu", "cream"] }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "旅伴心情不好時，你會怎麼做？",
+    "options": [
+      { "text": "主動關心，問他需不需要聊聊", "types": ["cream", "pudding"] },
+      { "text": "讓他靜一靜，默默陪在身邊", "types": ["chiffon"] },
+      { "text": "提議去做點好玩的事轉移注意力", "types": ["cupcake", "lava"] }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "關於吃飯，你的風格是？",
+    "options": [
+      { "text": "一定要吃到計畫中的米其林或人氣餐廳", "types": ["poundcake", "strawberry"] },
+      { "text": "跟著感覺走，路邊攤也很好", "types": ["scone", "lava"] },
+      { "text": "旅伴想吃什麼就吃什麼，我都可以", "types": ["chiffon", "cream"] }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "你如何分享你的旅程？",
+    "options": [
+      { "text": "即時更新社群媒體，分享美照", "types": ["strawberry", "cupcake"] },
+      { "text": "旅程結束後，寫篇遊記或整理相簿", "types": ["tart", "tiramisu"] },
+      { "text": "不太分享，自己珍藏回憶就好", "types": ["pudding", "scone"] }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "旅行中迷路了，你會？",
+    "options": [
+      { "text": "當成一種驚喜，隨意走走探索", "types": ["scone", "lava"] },
+      { "text": "立刻打開地圖定位，找出正確路線", "types": ["poundcake"] },
+      { "text": "尋求旅伴的幫助或問路人", "types": ["cream", "cupcake"] }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "理想的旅行節奏是？",
+    "options": [
+      { "text": "行程緊湊，一天跑多個點", "types": ["poundcake", "lava"] },
+      { "text": "悠閒慢活，一天只安排一兩個重點", "types": ["scone", "pudding"] },
+      { "text": "一半時間跑景點，一半時間隨性放空", "types": ["chiffon", "tiramisu"] }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "旅行結束時，你通常的感覺是？",
+    "options": [
+      { "text": "有點感傷，開始回味旅程點滴", "types": ["tiramisu", "pudding"] },
+      { "text": "心滿意足，準備好回到日常生活", "types": ["chiffon", "cream"] },
+      { "text": "已經在規劃下一次旅行！", "types": ["poundcake", "lava", "tart"] }
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>你們適合一起旅行嗎？</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>你們適合一起旅行嗎？</h1>
+            <p>透過 20 題選擇題，比對兩位使用者的旅行風格，判斷是否契合。</p>
+        </header>
+
+        <main id="app">
+            <div id="start-screen">
+                <h2>測驗開始</h2>
+                <p>請兩位使用者分別完成測驗，看看你們的旅行人格是什麼，以及彼此的契合度有多高！</p>
+                <button id="start-btn">開始測驗</button>
+            </div>
+
+            <div id="quiz-screen" class="hidden">
+                <div id="quiz-header">
+                    <h2 id="quiz-title">使用者 1 的測驗</h2>
+                    <div id="progress-tracker"></div>
+                </div>
+                <div id="question-area">
+                    <!-- Current question will be injected here -->
+                </div>
+                <div id="quiz-footer">
+                     <button id="next-btn" class="hidden">下一位</button>
+                     <button id="submit-btn" class="hidden">看結果</button>
+                </div>
+            </div>
+
+            <div id="result-screen" class="hidden">
+                <h2>測驗結果</h2>
+                <div id="compatibility-section">
+                    <h3>雙人契合度</h3>
+                    <div id="match-score"></div>
+                    <div id="match-level"></div>
+                    <p id="match-advice"></p>
+                </div>
+                <div class="results-grid">
+                    <div id="user1-result" class="result-card"></div>
+                    <div id="user2-result" class="result-card"></div>
+                </div>
+                 <button id="restart-btn">重新測驗</button>
+            </div>
+        </main>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html> 
