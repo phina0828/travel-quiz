@@ -10,6 +10,7 @@ const nextBtn = document.getElementById('next-btn');
 const submitBtn = document.getElementById('submit-btn');
 const restartBtn = document.getElementById('restart-btn');
 const progressTracker = document.getElementById('progress-tracker');
+const body = document.body;
 
 let questions = [];
 let types = [];
@@ -35,6 +36,7 @@ async function loadData() {
 }
 
 function startQuiz() {
+    body.classList.add('quiz-mode');
     startScreen.classList.add('hidden');
     quizScreen.classList.remove('hidden');
     resultScreen.classList.add('hidden');
@@ -144,6 +146,7 @@ function nextUser() {
 }
 
 function showResults() {
+    body.classList.remove('quiz-mode');
     const personality1 = calculatePersonality(user1Answers);
     const personality2 = calculatePersonality(user2Answers);
     
